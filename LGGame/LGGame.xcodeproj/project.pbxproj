@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33895BC3244DB81D00E0FD0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33895BC2244DB81D00E0FD0B /* AppDelegate.m */; };
+		33895BC9244DB81D00E0FD0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33895BC8244DB81D00E0FD0B /* ViewController.m */; };
+		33895BCC244DB81D00E0FD0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33895BCA244DB81D00E0FD0B /* Main.storyboard */; };
+		33895BCE244DB82000E0FD0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33895BCD244DB82000E0FD0B /* Assets.xcassets */; };
+		33895BD1244DB82000E0FD0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33895BCF244DB82000E0FD0B /* LaunchScreen.storyboard */; };
+		33895BD4244DB82000E0FD0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33895BD3244DB82000E0FD0B /* main.m */; };
+		33895BDE244DB82000E0FD0B /* LGGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33895BDD244DB82000E0FD0B /* LGGameTests.m */; };
+		33895BE9244DB82000E0FD0B /* LGGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33895BE8244DB82000E0FD0B /* LGGameUITests.m */; };
+		33895C2A244DB90A00E0FD0B /* LGSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33895C20244DB85700E0FD0B /* LGSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33895BDA244DB82000E0FD0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33895BB6244DB81D00E0FD0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33895BBD244DB81D00E0FD0B;
+			remoteInfo = LGGame;
+		};
+		33895BE5244DB82000E0FD0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33895BB6244DB81D00E0FD0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33895BBD244DB81D00E0FD0B;
+			remoteInfo = LGGame;
+		};
+		33895C1F244DB85700E0FD0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33895C1A244DB85700E0FD0B /* LGSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 33895C00244DB83200E0FD0B;
+			remoteInfo = LGSDK;
+		};
+		33895C21244DB85700E0FD0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33895C1A244DB85700E0FD0B /* LGSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 33895C09244DB83300E0FD0B;
+			remoteInfo = LGSDKTests;
+		};
+		33895C27244DB90300E0FD0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33895C1A244DB85700E0FD0B /* LGSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 33895BFF244DB83200E0FD0B;
+			remoteInfo = LGSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33895BBE244DB81D00E0FD0B /* LGGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33895BC1244DB81D00E0FD0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33895BC2244DB81D00E0FD0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33895BC7244DB81D00E0FD0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33895BC8244DB81D00E0FD0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33895BCB244DB81D00E0FD0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33895BCD244DB82000E0FD0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33895BD0244DB82000E0FD0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33895BD2244DB82000E0FD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33895BD3244DB82000E0FD0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33895BD9244DB82000E0FD0B /* LGGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33895BDD244DB82000E0FD0B /* LGGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGameTests.m; sourceTree = "<group>"; };
+		33895BDF244DB82000E0FD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33895BE4244DB82000E0FD0B /* LGGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33895BE8244DB82000E0FD0B /* LGGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGGameUITests.m; sourceTree = "<group>"; };
+		33895BEA244DB82000E0FD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33895C1A244DB85700E0FD0B /* LGSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LGSDK.xcodeproj; path = ../LGSDK/LGSDK.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33895BBB244DB81D00E0FD0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33895C2A244DB90A00E0FD0B /* LGSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33895BD6244DB82000E0FD0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33895BE1244DB82000E0FD0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33895BB5244DB81D00E0FD0B = {
+			isa = PBXGroup;
+			children = (
+				33895C1A244DB85700E0FD0B /* LGSDK.xcodeproj */,
+				33895BC0244DB81D00E0FD0B /* LGGame */,
+				33895BDC244DB82000E0FD0B /* LGGameTests */,
+				33895BE7244DB82000E0FD0B /* LGGameUITests */,
+				33895BBF244DB81D00E0FD0B /* Products */,
+				33895C29244DB90A00E0FD0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33895BBF244DB81D00E0FD0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33895BBE244DB81D00E0FD0B /* LGGame.app */,
+				33895BD9244DB82000E0FD0B /* LGGameTests.xctest */,
+				33895BE4244DB82000E0FD0B /* LGGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33895BC0244DB81D00E0FD0B /* LGGame */ = {
+			isa = PBXGroup;
+			children = (
+				33895BC1244DB81D00E0FD0B /* AppDelegate.h */,
+				33895BC2244DB81D00E0FD0B /* AppDelegate.m */,
+				33895BC7244DB81D00E0FD0B /* ViewController.h */,
+				33895BC8244DB81D00E0FD0B /* ViewController.m */,
+				33895BCA244DB81D00E0FD0B /* Main.storyboard */,
+				33895BCD244DB82000E0FD0B /* Assets.xcassets */,
+				33895BCF244DB82000E0FD0B /* LaunchScreen.storyboard */,
+				33895BD2244DB82000E0FD0B /* Info.plist */,
+				33895BD3244DB82000E0FD0B /* main.m */,
+			);
+			path = LGGame;
+			sourceTree = "<group>";
+		};
+		33895BDC244DB82000E0FD0B /* LGGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				33895BDD244DB82000E0FD0B /* LGGameTests.m */,
+				33895BDF244DB82000E0FD0B /* Info.plist */,
+			);
+			path = LGGameTests;
+			sourceTree = "<group>";
+		};
+		33895BE7244DB82000E0FD0B /* LGGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33895BE8244DB82000E0FD0B /* LGGameUITests.m */,
+				33895BEA244DB82000E0FD0B /* Info.plist */,
+			);
+			path = LGGameUITests;
+			sourceTree = "<group>";
+		};
+		33895C1B244DB85700E0FD0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33895C20244DB85700E0FD0B /* LGSDK.framework */,
+				33895C22244DB85700E0FD0B /* LGSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33895C29244DB90A00E0FD0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33895BBD244DB81D00E0FD0B /* LGGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33895BED244DB82000E0FD0B /* Build configuration list for PBXNativeTarget "LGGame" */;
+			buildPhases = (
+				33895BBA244DB81D00E0FD0B /* Sources */,
+				33895BBB244DB81D00E0FD0B /* Frameworks */,
+				33895BBC244DB81D00E0FD0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33895C28244DB90300E0FD0B /* PBXTargetDependency */,
+			);
+			name = LGGame;
+			productName = LGGame;
+			productReference = 33895BBE244DB81D00E0FD0B /* LGGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33895BD8244DB82000E0FD0B /* LGGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33895BF0244DB82000E0FD0B /* Build configuration list for PBXNativeTarget "LGGameTests" */;
+			buildPhases = (
+				33895BD5244DB82000E0FD0B /* Sources */,
+				33895BD6244DB82000E0FD0B /* Frameworks */,
+				33895BD7244DB82000E0FD0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33895BDB244DB82000E0FD0B /* PBXTargetDependency */,
+			);
+			name = LGGameTests;
+			productName = LGGameTests;
+			productReference = 33895BD9244DB82000E0FD0B /* LGGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33895BE3244DB82000E0FD0B /* LGGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33895BF3244DB82000E0FD0B /* Build configuration list for PBXNativeTarget "LGGameUITests" */;
+			buildPhases = (
+				33895BE0244DB82000E0FD0B /* Sources */,
+				33895BE1244DB82000E0FD0B /* Frameworks */,
+				33895BE2244DB82000E0FD0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33895BE6244DB82000E0FD0B /* PBXTargetDependency */,
+			);
+			name = LGGameUITests;
+			productName = LGGameUITests;
+			productReference = 33895BE4244DB82000E0FD0B /* LGGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33895BB6244DB81D00E0FD0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = dreamit;
+				TargetAttributes = {
+					33895BBD244DB81D00E0FD0B = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					33895BD8244DB82000E0FD0B = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 33895BBD244DB81D00E0FD0B;
+					};
+					33895BE3244DB82000E0FD0B = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 33895BBD244DB81D00E0FD0B;
+					};
+				};
+			};
+			buildConfigurationList = 33895BB9244DB81D00E0FD0B /* Build configuration list for PBXProject "LGGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33895BB5244DB81D00E0FD0B;
+			productRefGroup = 33895BBF244DB81D00E0FD0B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 33895C1B244DB85700E0FD0B /* Products */;
+					ProjectRef = 33895C1A244DB85700E0FD0B /* LGSDK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				33895BBD244DB81D00E0FD0B /* LGGame */,
+				33895BD8244DB82000E0FD0B /* LGGameTests */,
+				33895BE3244DB82000E0FD0B /* LGGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		33895C20244DB85700E0FD0B /* LGSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LGSDK.framework;
+			remoteRef = 33895C1F244DB85700E0FD0B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		33895C22244DB85700E0FD0B /* LGSDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LGSDKTests.xctest;
+			remoteRef = 33895C21244DB85700E0FD0B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33895BBC244DB81D00E0FD0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33895BD1244DB82000E0FD0B /* LaunchScreen.storyboard in Resources */,
+				33895BCE244DB82000E0FD0B /* Assets.xcassets in Resources */,
+				33895BCC244DB81D00E0FD0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33895BD7244DB82000E0FD0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33895BE2244DB82000E0FD0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33895BBA244DB81D00E0FD0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33895BC9244DB81D00E0FD0B /* ViewController.m in Sources */,
+				33895BC3244DB81D00E0FD0B /* AppDelegate.m in Sources */,
+				33895BD4244DB82000E0FD0B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33895BD5244DB82000E0FD0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33895BDE244DB82000E0FD0B /* LGGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33895BE0244DB82000E0FD0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33895BE9244DB82000E0FD0B /* LGGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33895BDB244DB82000E0FD0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33895BBD244DB81D00E0FD0B /* LGGame */;
+			targetProxy = 33895BDA244DB82000E0FD0B /* PBXContainerItemProxy */;
+		};
+		33895BE6244DB82000E0FD0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33895BBD244DB81D00E0FD0B /* LGGame */;
+			targetProxy = 33895BE5244DB82000E0FD0B /* PBXContainerItemProxy */;
+		};
+		33895C28244DB90300E0FD0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGSDK;
+			targetProxy = 33895C27244DB90300E0FD0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33895BCA244DB81D00E0FD0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33895BCB244DB81D00E0FD0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33895BCF244DB82000E0FD0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33895BD0244DB82000E0FD0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33895BEB244DB82000E0FD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33895BEC244DB82000E0FD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33895BEE244DB82000E0FD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dreamit.LGGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33895BEF244DB82000E0FD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dreamit.LGGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33895BF1244DB82000E0FD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dreamit.LGGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGGame.app/LGGame";
+			};
+			name = Debug;
+		};
+		33895BF2244DB82000E0FD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dreamit.LGGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGGame.app/LGGame";
+			};
+			name = Release;
+		};
+		33895BF4244DB82000E0FD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dreamit.LGGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LGGame;
+			};
+			name = Debug;
+		};
+		33895BF5244DB82000E0FD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LGGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dreamit.LGGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LGGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33895BB9244DB81D00E0FD0B /* Build configuration list for PBXProject "LGGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33895BEB244DB82000E0FD0B /* Debug */,
+				33895BEC244DB82000E0FD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33895BED244DB82000E0FD0B /* Build configuration list for PBXNativeTarget "LGGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33895BEE244DB82000E0FD0B /* Debug */,
+				33895BEF244DB82000E0FD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33895BF0244DB82000E0FD0B /* Build configuration list for PBXNativeTarget "LGGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33895BF1244DB82000E0FD0B /* Debug */,
+				33895BF2244DB82000E0FD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33895BF3244DB82000E0FD0B /* Build configuration list for PBXNativeTarget "LGGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33895BF4244DB82000E0FD0B /* Debug */,
+				33895BF5244DB82000E0FD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33895BB6244DB81D00E0FD0B /* Project object */;
+}
